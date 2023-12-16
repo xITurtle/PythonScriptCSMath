@@ -17,3 +17,10 @@ class Polynom:
             y = y + i * pow(x, counter)
             counter = counter + 1
         return y
+
+    def integration_trapez(self, beginning, ending, numberOfIntervalls):
+        h = (ending - beginning) / numberOfIntervalls
+        summe = self.evaluate(beginning) + self.evaluate(ending)
+        for i in range(1, numberOfIntervalls):
+            summe += (self.evaluate(beginning + h * i)) * 2
+        return summe * (h / 2)
