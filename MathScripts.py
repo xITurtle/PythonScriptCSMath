@@ -12,7 +12,7 @@ def print_introduction():
 
 if __name__ == '__main__':
     pass
-    # print_introduction()
+   # print_introduction()
 
     # Ausführung hier hin:
     # ----------NumberTheory-------------
@@ -22,8 +22,10 @@ if __name__ == '__main__':
     # ----------GraphTheroy--------------
     # Graph1 = GraphTheroy.DirectedWeightedGraph([1, 2, 3, 4], [(1, 2), (2, 3), (3, 4)])
     # ----------Polynomial----------------
-    # Polynom1 = Polynomial.Polynom([1,2,3])
+    # Polynom1 = Polynomial.Polynom([0,2,2])
     # print(Polynom1.evaluate(4))
+    # print(Polynom1.integration_trapez(1,2,100)) #1-Startpunkt, 2-Endpunkt, 3-Anzahl der Intervalle (Genauigkeit)
+
     # ----------LinearAlgebra----------------
     # KomplexeZahl1 = LinearAlgebra.ComplexNumbers(4,2)
     # print(KomplexeZahl1.multiplication(4,2))
